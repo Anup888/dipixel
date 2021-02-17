@@ -1,0 +1,45 @@
+.description__wrapper {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+}
+.description__title {
+  //   flex-basis: 0 1 0;
+  flex: 1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  align-self: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  color: #333333;
+}
+.description__content {
+  flex: 1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 37px */
+  align-self: center;
+  letter-spacing: 0.015em;
+  justify-content: center;
+  color: #666666;
+  width: 60%;
+}
+
+.container__spacing {
+  margin-bottom: 150px;
+}
+
+.content__wrapper {
+  margin-top: 60px;
+}
