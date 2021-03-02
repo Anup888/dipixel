@@ -8,7 +8,9 @@ import Services from "view/client/Services";
 import ProjectList from "view/client/ProjectsList";
 import Projects from "view/client/Projects";
 import AboutUs from "view/client/Aboutus";
+import ContactUs from "view/client/Contactus";
 import Footer from "view/shared/footer";
+
 // import "assets/app/style.module.scss";
 class App extends Component {
   render() {
@@ -26,12 +28,15 @@ class App extends Component {
             <Route path="/projects">
               <Projects />
             </Route>
+            <Route path="/projects/:title">
+              <Projects />
+            </Route>
             <Route path="/about-us">
               <AboutUs />
             </Route>
-            {/* <Route path="/contact-us">
-              <AboutUs />
-            </Route> */}
+            <Route path="/contact-us">
+              <ContactUs />
+            </Route>
             <Route path="/">
               <Home />
             </Route>

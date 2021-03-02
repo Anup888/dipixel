@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Row, Container } from "reactstrap";
 import { TitleDescriptionBlock } from "view/shared/titleDescriptionBlock";
 import style from "assets/style/contentBlock/titleDescriptionBlock/style.module.scss";
+import AboutusImage from "assets/images/home/about-us.png";
+
 const defaultProps = {
   title: "",
   description: "",
@@ -25,6 +27,9 @@ class AboutUs extends Component<AboutProps, AboutState> {
             title="Our vision"
             description="UX (user experience) research is the systematic investigation of users and their requirements, in order to add context and insight into the process of designing the user experience."
           />
+          <div className={style["img__wrapper"]}>
+            <img src={AboutusImage} alt="about-us" />
+          </div>
           <TitleDescriptionBlock
             title="Remote working"
             description="UX (user experience) research is the systematic investigation of users and their requirements, in order to add context and insight into the process of designing the user experience."
@@ -32,6 +37,10 @@ class AboutUs extends Component<AboutProps, AboutState> {
           <TitleDescriptionBlock
             title="Location"
             description="UX (user experience) research is the systematic investigation of users and their requirements, in order to add context and insight into the process of designing the user experience."
+          />
+          <TitleDescriptionBlock
+            title="Catch us on social media"
+            aboutus={true}
           />
         </div>
       </Container>

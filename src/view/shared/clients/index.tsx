@@ -4,6 +4,7 @@ import style from "assets/style/client/style.module.scss";
 type ClientsProps = {
   ClientsItemData: ClientsItemData;
   icon?: boolean;
+  type?: string;
 };
 type listItem = {
   src?: string;
@@ -33,7 +34,12 @@ class Clients extends React.Component<ClientsProps, ClientsState> {
     return (
       <div
         className={
-          this.props.icon ? style["gridContainerIcon"] : style["gridContainer"]
+          // this.props.icon ? style["gridContainerIcon"] : style["gridContainer"]
+          this.props.icon
+            ? this.props.type
+              ? style["gridContainerIconType"]
+              : style["gridContainerIcon"]
+            : style["gridContainer"]
         }
       >
         {this.getProjectsList(ClientsItemData)}

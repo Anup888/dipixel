@@ -20,9 +20,8 @@ export const MenuItemData = [
     itemName: "About Us",
     link: "/about-us",
   },
-
-  // {
-  //   itemName: "Contact Us",
-  //   link: "/contact-us",
-  // },
+  {
+    itemName: "Contact Us",
+    link: "/contact-us",
+  },
 ];

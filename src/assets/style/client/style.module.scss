@@ -41,3 +41,14 @@
   width: 80px;
   height: 80px;
 }
+
+.gridContainerIconType {
+  display: grid;
+  // grid-auto-columns: 1fr;
+  grid-template-columns: 60px 60px 60px 60px;
+  // margin-left: 87px;
+  @media only screen and (max-width: 600px) {
+    margin: 0px;
+    justify-content: center;
+  }
+}

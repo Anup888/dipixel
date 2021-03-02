@@ -22,7 +22,7 @@ class Footer extends Component<FooterProps, FooterState> {
               <a href="/projectlist">Explore Our Projects</a>
             </div>
             <div className={style["footer_link"]}>
-              <a href="#end">Contact us</a>
+              <a href="/contact-us">Contact us</a>
             </div>
           </div>
         </Row>

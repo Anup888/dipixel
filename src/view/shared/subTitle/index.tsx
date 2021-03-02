@@ -2,6 +2,7 @@ import style from "assets/style/subTitle/style.module.scss";
 
 type subTitleProps = {
   title: string;
+  type?: string;
 };
 
 export const SubTitle = (props: subTitleProps) => {

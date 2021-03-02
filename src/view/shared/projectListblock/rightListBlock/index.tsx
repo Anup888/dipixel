@@ -33,7 +33,7 @@ class RightListBlock extends Component<
                   we’ll design for you and develop for you.
                 </div>
                 <div className={style["item__list"]}>
-                  <a href="//#endregion">Explore more</a>
+                  <a href="/projects/flyer-eats-mobile">Explore more</a>
                 </div>
               </div>
             </div>

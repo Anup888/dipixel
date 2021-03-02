@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Logo } from "view/shared/logo";
 import Menu from "view/shared/Menu";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
+import MobileMenu from "view/shared/mobileMenu";
 import style from "assets/style/header/style.module.scss";
 
 type HeaderProps = {
@@ -28,6 +29,9 @@ class Header extends Component<HeaderProps, HeaderState> {
             <div className={style["header__menu__wraper"]}>
               <Menu MenuItemData={MenuItemData} />
             </div>
+            {/* <div className={style["header__menu__wraper"]}>
+              <MobileMenu />
+            </div> */}
           </div>
         </Row>
       </Container>
