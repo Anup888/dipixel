@@ -32,6 +32,10 @@
       "react-app/jest"
     ]
   },
+  "engines": {
+    "node": "10.17.0",
+    "npm": "6.11.3"
+},
   "devDependencies": {
     "@types/node-sass": "4.14.1",
     "css-loader": "^1.0.0",
