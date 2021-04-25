@@ -10,9 +10,10 @@
   background: #111111;
   border-radius: 0px;
   justify-content: center;
-  @media only screen and (max-width: 600px) {
-    flex-direction: column;
-  }
+  // @media only screen and (max-width: 600px) {
+  //   flex-direction: column;
+  //   justify-content: center;
+  // }
 }
 .footer_heading {
   // position: absolute;
@@ -62,5 +63,22 @@
     text-decoration-line: underline;
 
     color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_wrapper {
+    justify-content: center;
+    margin: auto;
+  }
+  .footer_heading {
+    text-align: center;
+    margin: auto;
+    // margin-left: auto !important;
+    // margin-right: auto !important;
+  }
+  .footer_link {
+    margin: auto;
+    text-align: center;
   }
 }
