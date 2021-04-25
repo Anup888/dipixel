@@ -73,12 +73,17 @@
   }
   .footer_heading {
     text-align: center;
-    margin: auto;
+    margin: 0px !important;
+    padding: 5px;
     // margin-left: auto !important;
     // margin-right: auto !important;
   }
   .footer_link {
     margin: auto;
     text-align: center;
+  }
+  .container__wrapper {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
