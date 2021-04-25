@@ -8,7 +8,9 @@ type subTitleProps = {
 export const SubTitle = (props: subTitleProps) => {
   return (
     <>
-      <div className={style["subTitle"]}>{props.title}</div>
+      <div className="container__wrapper">
+        <div className={style["subTitle"]}>{props.title}</div>
+      </div>
     </>
   );
 };

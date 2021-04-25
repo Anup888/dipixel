@@ -22,16 +22,20 @@ class Header extends Component<HeaderProps, HeaderState> {
       <Container>
         <Row>
           <div className={style["header_wrapper"]}>
-            <div className={style["header__logo"]}>
-              <Logo url={logoData.url} alt={logoData.alt} />
-            </div>
+            <div className="container__wrapper">
+              <div className={style["header__item__wrapper"]}>
+                <div className={style["header__logo"]}>
+                  <Logo url={logoData.url} alt={logoData.alt} />
+                </div>
 
-            <div className={style["header__menu__wraper"]}>
-              <Menu MenuItemData={MenuItemData} />
+                <div className={style["header__menu__wraper"]}>
+                  <Menu MenuItemData={MenuItemData} />
+                </div>
+                <div className={style["header__mobile_menu__wraper"]}>
+                  <MobileMenu />
+                </div>
+              </div>
             </div>
-            {/* <div className={style["header__menu__wraper"]}>
-              <MobileMenu />
-            </div> */}
           </div>
         </Row>
       </Container>

@@ -17,7 +17,9 @@ class Services extends Component<ServicesProps, ServicesState> {
         <Banner src={serviceBanner.src} alt={serviceBanner.alt} />
         <div className={style["page__wrapper"]}>
           <CenterTitle title="We Make Design Usable Through" />
-          <ServiceContentBlock />
+          <div className="container__wrapper">
+            <ServiceContentBlock />
+          </div>
         </div>
       </>
     );

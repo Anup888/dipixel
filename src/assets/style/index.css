@@ -13,3 +13,15 @@ code {
     monospace; */
   font-family: Poppins;
 }
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container__wrapper {
+  margin-left: 139px;
+  margin-right: 139px;
+}

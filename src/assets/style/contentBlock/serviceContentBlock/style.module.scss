@@ -1,6 +1,8 @@
 .content__Wrapper {
   display: flex;
   flex-direction: row;
+  flex: 1 1 0;
+  justify-content: space-evenly;
 }
 
 .item {
@@ -8,6 +10,7 @@
   // align-content: center;
   padding: 20px;
   display: flex;
+  width: 450px;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   // @media only screen and (max-width: 600px) {
@@ -71,10 +74,11 @@
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  width: 450px;
 }
 
 .imageStyle {
-  width: 667px;
+  // width: 667px;
   // @media only screen and (max-width: 600px) {
   //   width: 250px;
   // }
