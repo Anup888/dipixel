@@ -7,6 +7,7 @@ type SmallCardProps = {
 };
 type CardItem = {
   title: string;
+  iconUrl: string;
 };
 type SmallCardItemData = Array<CardItem>;
 
@@ -17,7 +18,7 @@ export const SmallCardHolder = (props: SmallCardProps) => {
       {smallCard.map((item: CardItem) => {
         return (
           <div>
-            <SmallCardItem title={item.title} />
+            <SmallCardItem title={item.title} iconUrl={item.iconUrl} />
           </div>
         );
       })}
