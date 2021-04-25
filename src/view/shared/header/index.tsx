@@ -3,6 +3,7 @@ import { Logo } from "view/shared/logo";
 import Menu from "view/shared/Menu";
 import { Container, Row } from "reactstrap";
 import MobileMenu from "view/shared/mobileMenu";
+
 import style from "assets/style/header/style.module.scss";
 
 type HeaderProps = {

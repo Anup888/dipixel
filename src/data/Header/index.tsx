@@ -1,6 +1,7 @@
+import LogoIcon from "assets/icons/logo.png";
 export const logoData = {
-  url: "",
-  alt: "",
+  url: LogoIcon,
+  alt: "DiPixl",
 };
 
 export const MenuItemData = [
