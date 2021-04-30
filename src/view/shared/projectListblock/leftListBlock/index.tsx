@@ -29,9 +29,7 @@ class LeftListBlock extends Component<LeftListBlockProps, LeftListBlockState> {
                 </div>
               </div>
             </div>
-            <div
-              className={this.props.image ? style["itemImage"] : style["item"]}
-            >
+            <div className={this.props.image ? style["item"] : style["item"]}>
               <img className={style["imageStyle"]} src={image} alt="left" />
             </div>
           </div>

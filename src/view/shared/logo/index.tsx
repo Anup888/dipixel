@@ -9,8 +9,8 @@ export const Logo = (props: LogoProps) => {
   return (
     <>
       <a className={style["logoStyle"]} href={"/"}>
-        {/* <img alt={props.alt} src={props.url} /> */}
-        DiPixel
+        <img alt={props.alt} src={props.url} />
+        {/* DiPixel */}
       </a>
     </>
   );

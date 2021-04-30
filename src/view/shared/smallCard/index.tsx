@@ -14,14 +14,16 @@ type SmallCardItemData = Array<CardItem>;
 export const SmallCardHolder = (props: SmallCardProps) => {
   let smallCard: SmallCardItemData = props.SmallCardItemData;
   return (
-    <div className={style["grid-container"]}>
-      {smallCard.map((item: CardItem) => {
-        return (
-          <div>
-            <SmallCardItem title={item.title} iconUrl={item.iconUrl} />
-          </div>
-        );
-      })}
+    <div className="container__wrapper">
+      <div className={style["grid-container"]}>
+        {smallCard.map((item: CardItem) => {
+          return (
+            <div>
+              <SmallCardItem title={item.title} iconUrl={item.iconUrl} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

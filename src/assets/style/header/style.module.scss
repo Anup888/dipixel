@@ -38,6 +38,7 @@
 .logoStyle {
   text-decoration: none;
   color: #fff;
+  margin-top: 8px;
   // justify-content: center;
 }
 // menu style
@@ -46,6 +47,11 @@
   flex-direction: row;
   flex: 1 1;
   justify-content: flex-end;
+  margin-left: 20px;
+}
+.menuItemhold {
+  margin: 8px;
+  display: flex;
 }
 // menu item style
 .menuItemStyle {
@@ -53,6 +59,30 @@
   list-style-type: none;
   margin: 8px;
   color: #fff;
+  text-align: center;
+  position: static;
+  // width: 76px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  /* identical to box height, or 180% */
+
+  // display: flex;
+  // align-items: center;
+
+  color: #d5d5d5;
+
+  /* Inside Auto Layout */
+
+  // flex: none;
+  // order: 0;
+  // flex-grow: 0;
+  // margin: 0px 75px
 }
 @media only screen and (max-width: 600px) {
   .header_wrapper {

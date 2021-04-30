@@ -27,9 +27,22 @@ class AboutUs extends Component<AboutProps, AboutState> {
             title="Our vision"
             description="UX (user experience) research is the systematic investigation of users and their requirements, in order to add context and insight into the process of designing the user experience."
           />
-          <div className={style["img__wrapper"]}>
-            <img src={AboutusImage} alt="about-us" />
-          </div>
+          {/* <div className={style["container__spacing"]}>
+            <Row>
+              <div className={style["img__wrapper"]}>
+                <img src={AboutusImage} alt="about-us" />
+              </div>
+            </Row>
+          </div> */}
+          <Container className={style["container__spacing"]}>
+            <Row>
+              <div className={style["description__wrapper"]}>
+                <div className={style["description__title"]}>
+                  <img src={AboutusImage} alt="about-us" />
+                </div>
+              </div>
+            </Row>
+          </Container>
           <TitleDescriptionBlock
             title="Remote working"
             description="UX (user experience) research is the systematic investigation of users and their requirements, in order to add context and insight into the process of designing the user experience."

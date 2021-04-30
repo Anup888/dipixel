@@ -19,7 +19,7 @@ class MenuItems extends React.Component<MenuItemsProps, MenuItemsState> {
   render() {
     console.log("this.props", this.props);
     return (
-      <li key={this.props.index} className={style["menuItemStyle"]}>
+      <li key={this.props.index} className={style["menuItemhold"]}>
         <Link className={style["menuItemStyle"]} to={`${this.props.link}`}>
           {this.props.itemName}
         </Link>
