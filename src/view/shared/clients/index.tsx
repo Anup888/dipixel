@@ -32,17 +32,19 @@ class Clients extends React.Component<ClientsProps, ClientsState> {
   render() {
     const ClientsItemData = this.props.ClientsItemData;
     return (
-      <div
-        className={
-          // this.props.icon ? style["gridContainerIcon"] : style["gridContainer"]
-          this.props.icon
-            ? this.props.type
-              ? style["gridContainerIconType"]
-              : style["gridContainerIcon"]
-            : style["gridContainer"]
-        }
-      >
-        {this.getProjectsList(ClientsItemData)}
+      <div className="container__wrapper">
+        <div
+          className={
+            // this.props.icon ? style["gridContainerIcon"] : style["gridContainer"]
+            this.props.icon
+              ? this.props.type
+                ? style["gridContainerIconType"]
+                : style["gridContainerIcon"]
+              : style["gridContainer"]
+          }
+        >
+          {this.getProjectsList(ClientsItemData)}
+        </div>
       </div>
     );
   }
