@@ -21,3 +21,15 @@
 .gridItem {
   grid-row: 1;
 }
+.mobile__slider {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile__slider {
+    display: block;
+  }
+  .gridContainer {
+    display: none;
+  }
+}

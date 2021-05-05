@@ -1,6 +1,5 @@
 import React from "react";
 import style from "assets/style/recentProject/style.module.scss";
-
 type ProjectsItemsProps = {
   src?: string;
   index?: number;
@@ -17,9 +16,15 @@ class ProjectsItems extends React.Component<
   }
   render() {
     return (
-      <div key={this.props.index} className={style["gridItem"]}>
-        <img className={style["imgItem"]} src={this.props.src} alt="project" />
-      </div>
+      <>
+        <div key={this.props.index} className={style["gridItem"]}>
+          <img
+            className={style["imgItem"]}
+            src={this.props.src}
+            alt="project"
+          />
+        </div>
+      </>
     );
   }
 }

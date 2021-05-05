@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectsItems from "./projectsItems";
+import { Slideshow } from "view/shared/slideshow";
+
 import style from "assets/style/recentProject/style.module.scss";
 type ProjectsProps = {
   ProjectsItemData: ProjectsItemData;
@@ -22,10 +24,19 @@ class RecentProjects extends React.Component<ProjectsProps, ProjectsState> {
   };
   render() {
     const ProjectsItemData = this.props.ProjectsItemData;
+    const images = ProjectsItemData.map((item: any) => {
+      return item.src;
+    });
+    console.log("image array", images);
     return (
-      <div className={style["gridContainer"]}>
-        {this.getProjectsList(ProjectsItemData)}
-      </div>
+      <>
+        <div className={style["gridContainer"]}>
+          {this.getProjectsList(ProjectsItemData)}
+        </div>
+        <div className={style["mobile__slider"]}>
+          <Slideshow images={images} />
+        </div>
+      </>
     );
   }
 }
