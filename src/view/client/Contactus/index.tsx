@@ -14,16 +14,18 @@ class ContactUs extends Component<ContactProps, ContactState> {
     return (
       <Container fluid={true}>
         <Row>
-          <div className={style["container__wrapper"]}>
-            <div className={style["item__wrapper"]}>
-              <div className={style["item"]}>
-                <ImageBlock />;
+          <div className="container__wrapper">
+            <div className={style["content__wrapper"]}>
+              <div className={style["item__wrapper"]}>
+                <div className={style["item"]}>
+                  <ImageBlock />;
+                </div>
               </div>
-            </div>
-            <div className={style["item__wrapper"]}>
-              <div className={style["item"]}>
-                <div className={style["item__title"]}>Drop us a Note</div>
-                <ContactForm />;
+              <div className={style["item__wrapper"]}>
+                <div className={style["item"]}>
+                  <div className={style["item__title"]}>Drop us a Note</div>
+                  <ContactForm />;
+                </div>
               </div>
             </div>
           </div>

@@ -22,7 +22,7 @@
   //   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-weight: regular;
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   margin: auto;
   height: 200px;
@@ -74,6 +74,6 @@
 @media only screen and (min-width: 1200px) {
   .grid-container {
     grid-gap: 24px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(373px, 1fr));
   }
 }
