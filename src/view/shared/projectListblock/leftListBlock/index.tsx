@@ -14,7 +14,7 @@ class LeftListBlock extends Component<LeftListBlockProps, LeftListBlockState> {
     return (
       <Container>
         <Row>
-          <div className={style["content__Wrapper"]}>
+          <div className={style["content__Wrapper_right"]}>
             <div className={style["item"]}>
               <div className={style["item__wrapper"]}>
                 <div className={style["item__title"]}>Flyer Eats</div>
