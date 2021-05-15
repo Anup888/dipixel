@@ -98,9 +98,11 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding: 5px;
+    // padding: 5px;
   }
-
+  .item {
+    padding-top: 20px;
+  }
   .content__Wrapper_right {
     flex-direction: column-reverse;
   }
