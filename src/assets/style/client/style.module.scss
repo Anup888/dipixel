@@ -16,32 +16,23 @@
   display: grid;
   // grid-auto-columns: 1fr;
   grid-template-columns: auto auto auto auto auto;
-  margin-left: 139px;
-  margin-right: 139px;
-  @media only screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  // margin-left: 139px;
+  // margin-right: 139px;
 }
 .gridContainerIcon {
   display: grid;
   // grid-auto-columns: 1fr;
   grid-template-columns: 60px 60px 60px 60px;
-  margin-left: 139px;
-  margin-right: 139px;
-  @media only screen and (max-width: 600px) {
-    margin: 0px;
-    justify-content: center;
-  }
+  // margin-left: 139px;
+  // margin-right: 139px;
 }
 .gridItem {
-  grid-row: 1;
+  grid-row: auto;
 }
 
 .gridItemIcon {
-  grid-row: 1;
-  width: 80px;
+  grid-row: auto;
+  // width: 80px;
   height: 80px;
 }
 
@@ -50,10 +41,42 @@
   // grid-auto-columns: 1fr;
   grid-template-columns: 60px 60px 60px 60px;
   // margin-left: 87px;
-  @media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 576px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 127px) !important;
+    margin: auto;
+    justify-content: center;
+  }
+  .gridContainerIconType {
     // display: flex;
     margin: 0px;
     justify-content: center;
+    grid-template-columns: repeat(2, 127px) !important;
     // align-items: center;
+  }
+  .gridContainerIcon {
+    margin: 0px;
+    // grid-template-columns: repeat(1, 127px) !important;
+
+    justify-content: center;
+  }
+  gridItemIcon {
+    grid-row: auto !important;
+    // margin-left: 12% !important;
+    width: 0px !important;
+    height: 80px;
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .gridContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .gridContainerIcon {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

@@ -62,7 +62,7 @@
     padding-right: 17%;
     color: #828282;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 576px) {
     height: auto;
     .title {
       position: relative;
@@ -77,7 +77,7 @@
       padding-right: 5%;
     }
   }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 576px) {
     .title {
       position: relative;
       text-align: center;
