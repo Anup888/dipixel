@@ -41,3 +41,11 @@
 .container__spacing {
   margin-bottom: 150px;
 }
+@media only screen and (max-width: 600px) {
+  .description__content {
+    width: 90% !important;
+  }
+  .description__title {
+    width: 90% !important;
+  }
+}

@@ -66,3 +66,8 @@
   margin-bottom: 30px;
   color: #666666;
 }
+@media only screen and (max-width: 600px) {
+  .content__item {
+    width: 90%;
+  }
+}

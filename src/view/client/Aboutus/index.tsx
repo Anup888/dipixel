@@ -34,7 +34,7 @@ class AboutUs extends Component<AboutProps, AboutState> {
               </div>
             </Row>
           </div> */}
-          <Container className={style["container__spacing"]}>
+          <Container>
             <Row>
               <div className={style["description__wrapper"]}>
                 <div className={style["description__title"]}>

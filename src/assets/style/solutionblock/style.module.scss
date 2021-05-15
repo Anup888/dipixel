@@ -67,3 +67,8 @@
 .container__spacing {
   margin-bottom: 150px;
 }
+@media only screen and (max-width: 600px) {
+  .content__item {
+    width: 90%;
+  }
+}

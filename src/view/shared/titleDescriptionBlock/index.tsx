@@ -5,7 +5,7 @@ import style from "assets/style/contentBlock/titleDescriptionBlock/style.module.
 export const TitleDescriptionBlock = (props: any) => {
   return (
     <>
-      <Container className={style["container__spacing"]}>
+      <Container>
         <Row>
           <div className={style["description__wrapper"]}>
             <div className={style["description__title"]}>{props.title}</div>
