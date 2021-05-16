@@ -70,4 +70,23 @@
   .content__item {
     width: 90%;
   }
+  .grid__container {
+    display: grid;
+    // grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, auto);
+  }
+  .grid__item {
+    grid-row: auto;
+    margin: 15px;
+  }
+  .image__item {
+    width: 100%;
+    // height: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+  }
+  .grid__container {
+    margin-top: -104px;
+    grid-gap: 10px;
+  }
 }
