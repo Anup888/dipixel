@@ -59,7 +59,7 @@
   /* or 33px */
 
   letter-spacing: 0.013em;
-  margin-top: 59px;
+  margin-top: 79px;
   padding-left: 20%;
   padding-right: 17%;
   color: #828282;
@@ -81,5 +81,23 @@
   .homeContent {
     height: auto;
     padding-bottom: 48px;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .description {
+    margin-top: 139px;
+  }
+  .title {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 873px) {
+  .description {
+    margin-top: 100px;
+  }
+  .title {
+    text-align: center;
   }
 }
