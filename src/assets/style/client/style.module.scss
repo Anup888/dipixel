@@ -45,9 +45,10 @@
 @media only screen and (max-width: 576px) {
   .gridContainer {
     display: grid;
-    grid-template-columns: repeat(2, 127px) !important;
-    margin: auto;
-    justify-content: center;
+    grid-template-columns: repeat(3, 114px) !important;
+    // margin: auto;
+    // justify-content: center;
+    margin: 0px 25px !important;
   }
   .gridContainerIconType {
     // display: flex;
@@ -68,6 +69,10 @@
     width: 0px !important;
     height: 80px;
     justify-content: start;
+  }
+  .container__wrapper_mobile {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
 @media only screen and (max-width: 1023px) {
