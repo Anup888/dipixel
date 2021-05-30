@@ -6,8 +6,8 @@ export const ProjectListBlock = (props: any) => {
       <div className="container__wrapper">
         <LeftListBlock image={true} />
         <RightListBlock image={true} />
-        <LeftListBlock image={true} />
-        <RightListBlock image={true} />
+        {/* <LeftListBlock image={true} />
+        <RightListBlock image={true} /> */}
       </div>
     </>
   );

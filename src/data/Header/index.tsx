@@ -13,10 +13,10 @@ export const MenuItemData = [
     itemName: "Project List",
     link: "/projectlist",
   },
-  {
-    itemName: "Projects",
-    link: "/projects",
-  },
+  // {
+  //   itemName: "Projects",
+  //   link: "/projects",
+  // },
   {
     itemName: "About Us",
     link: "/about-us",

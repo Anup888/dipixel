@@ -7,6 +7,8 @@ import Home from "view/client/Home";
 import Services from "view/client/Services";
 import ProjectList from "view/client/ProjectsList";
 import Projects from "view/client/Projects";
+import FlyerEats from "view/client/Projects/flyerEats";
+import FactoryFresh from "view/client/Projects/factoryFresh";
 import AboutUs from "view/client/Aboutus";
 import ContactUs from "view/client/Contactus";
 import Footer from "view/shared/footer";
@@ -25,10 +27,13 @@ class App extends Component {
             <Route path="/projectlist">
               <ProjectList />
             </Route>
-            <Route path="/projects">
-              <Projects />
+            <Route exact path="/projects/flyer-eats">
+              <FlyerEats />
             </Route>
-            <Route path="/projects/:title">
+            <Route exact path="/projects/factory-fresh">
+              <FactoryFresh />
+            </Route>
+            <Route path="/projects">
               <Projects />
             </Route>
             <Route path="/about-us">

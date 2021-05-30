@@ -17,7 +17,7 @@ class LeftListBlock extends Component<LeftListBlockProps, LeftListBlockState> {
           <div className={style["content__Wrapper_right"]}>
             <div className={style["item"]}>
               <div className={style["item__wrapper"]}>
-                <div className={style["item__title"]}>Flyer Eats</div>
+                <div className={style["item__title"]}>Factory Fresh</div>
                 <div className={style["item__description"]}>
                   We are here to help you in your business, we connect with you
                   as design and development parter for your business. Even for
@@ -25,7 +25,7 @@ class LeftListBlock extends Component<LeftListBlockProps, LeftListBlockState> {
                   we’ll design for you and develop for you.
                 </div>
                 <div className={style["item__list"]}>
-                  <a href="/projects/flyer-eats">Explore more</a>
+                  <a href="/projects/factory-fresh">Explore more</a>
                 </div>
               </div>
             </div>

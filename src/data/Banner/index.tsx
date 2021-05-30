@@ -3,6 +3,7 @@ import homebanner from "assets/banners/Banner-Home.png";
 import serviceImg from "assets/banners/Banner-Services.png";
 import projectList from "assets/banners/Banner-Projects-list.png";
 import project from "assets/banners/project.png";
+import FlyerEatsImage from "assets/banners/flyerEats.png";
 import about from "assets/banners/about.png";
 export const homeBanner = {
   src: homebanner,
@@ -25,6 +26,13 @@ export const projectsListBanner = {
 };
 export const projectsBanner = {
   src: project,
+  alt: "Project Banner",
+  width: 50,
+  height: 50,
+};
+
+export const FlyerEatsBanner = {
+  src: FlyerEatsImage,
   alt: "Project Banner",
   width: 50,
   height: 50,

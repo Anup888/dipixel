@@ -25,7 +25,7 @@ class RightListBlock extends Component<
             </div>
             <div className={style["item"]}>
               <div className={style["item__wrapper"]}>
-                <div className={style["item__title"]}>Flyer Eats Mobile</div>
+                <div className={style["item__title"]}>Flyer Eats</div>
                 <div className={style["item__description"]}>
                   We are here to help you in your business, we connect with you
                   as design and development parter for your business. Even for
@@ -33,7 +33,7 @@ class RightListBlock extends Component<
                   we’ll design for you and develop for you.
                 </div>
                 <div className={style["item__list"]}>
-                  <a href="/projects/flyer-eats-mobile">Explore more</a>
+                  <a href="/projects/flyer-eats">Explore more</a>
                 </div>
               </div>
             </div>

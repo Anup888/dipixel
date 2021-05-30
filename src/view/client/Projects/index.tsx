@@ -5,6 +5,8 @@ import { DescriptionBlock } from "view/shared/descriptionBlock";
 import { SolutionBlock } from "view/shared/solutionBlock";
 import { FeatureBlock } from "view/shared/featureBlock";
 import { ProcessBlock } from "view/shared/processBlock";
+import FactoryFresh from "./factoryFresh";
+import FlyerEats from "./flyerEats";
 type ProjectsProps = {};
 type ProjectsState = {};
 class Projects extends Component<ProjectsProps, ProjectsState> {
@@ -15,11 +17,8 @@ class Projects extends Component<ProjectsProps, ProjectsState> {
   render() {
     return (
       <>
-        <Banner src={projectsBanner.src} alt={projectsBanner.alt} />
-        <DescriptionBlock />
-        <SolutionBlock />
-        <FeatureBlock />
-        <ProcessBlock />
+        <FactoryFresh />
+        {/* <FlyerEats /> */}
       </>
     );
   }
